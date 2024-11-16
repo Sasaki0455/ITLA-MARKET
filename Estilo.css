@@ -1,0 +1,103 @@
+/* Cuadro azul */
+.cuadro-azul {
+    background-color: #007bff; /* Color azul */
+    padding: 20px; /* Espacio interno */
+    border-radius: 8px;
+    display: flex;
+    align-items: center; /* Centra el contenido verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    width: 100%; /* Ocupa todo el ancho */
+    margin-top: 20px;
+    height: 80px; /* Altura del cuadro azul */
+}
+
+/* Logo */
+.logo {
+    height: 50px; /* Tamaño del logo */
+    margin-right: 10px; /* Espacio entre el logo y el cuadro de búsqueda */
+}
+
+/* Barra de búsqueda */
+.barra-busqueda {
+    background-color: #ffffff; /* Fondo blanco para la barra de búsqueda */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 20px; /* Bordes redondeados */
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    width: 300px; /* Ancho del cuadro de búsqueda */
+}
+
+.barra-busqueda input {
+    border: none; /* Sin borde */
+    outline: none; /* Sin borde al hacer clic */
+    padding: 5px;
+    width: 100%; /* Ocupa todo el espacio disponible */
+    font-size: 16px;
+}
+
+.barra-busqueda button {
+    background: none; /* Sin fondo */
+    border: none; /* Sin borde */
+    cursor: pointer;
+    font-size: 16px;
+    color: #007bff; /* Color azul para el ícono */
+    padding: 0 5px;
+}
+
+/* Contenedor de los productos */
+.product-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Tarjeta de producto */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-card h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.price {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.product-card button:hover {
+    background-color: #0056b3;
+}
